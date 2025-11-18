@@ -4,6 +4,7 @@ import argparse
 from datetime import datetime
 import requests
 
+#API endpoint for OpenWeatherMap
 OWM_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def get_weather(city: str, api_key: str) -> dict:
